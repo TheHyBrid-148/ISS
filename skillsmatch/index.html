@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills Match</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function selectRole(role) {
+            localStorage.setItem("userRole", role);
+            window.location.href = "signup.html";
+        }
+    </script>
+</head>
+<body>
+    <h1>Are you a...</h1>
+    <div class="container">
+        <button onclick="selectRole('student')">Student</button>
+        <button onclick="selectRole('educator')">Educator</button>
+        <button onclick="selectRole('employer')">Employer</button>
+        <button onclick="selectRole('unemployed')">Unemployed</button>
+    </div>
+</body>
+</html>
