@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EskuwelaNET | About US</title>
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EskuwelaNET</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">=</div>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <div class="content-container">
+            <h1>Our Mission</h1>
+            <ul>
+                <li>Formalize student voice into actionable institutional metrics.</li>
+                <li>Drive operational efficiency through automated routing and verifiable accountability.</li>
+                <li>Enable strategic decision-making through comprehensive, real-time campus intelligence.</li>
+            </ul>
+
+            <h2>Our Vision</h2>
+            <p>
+                To be recognized as the global standard for data-driven, transparent, and student-centric campus 
+                governance, enabling universities to achieve new heights in operational excellence and institutional trust.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy 2025 EskuwelaNET. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active')
+        });
+    </script>
+</body>
+</html>

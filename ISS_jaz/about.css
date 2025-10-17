@@ -1,0 +1,38 @@
+body.about-page, body {
+    background: #fff9c4;
+}
+
+.content-section {
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    max-width: 800px;
+    text-align: left;
+}
+
+.content-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2d3436;
+}
+
+.content-container h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    color: #2d3436;
+}
+
+.content-container p,
+.content-container ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #3d3d3d;
+}
+
+.content-container ul {
+    padding-left: 1.5rem;
+}
