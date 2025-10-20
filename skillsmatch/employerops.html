@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer Options</title>
+    <link rel="stylesheet" href="employer.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Are you looking for...</h1>
+        <div class="button-group">
+            <button class="option-btn" onclick="viewInternship()">Internships</button>
+            <script>
+                function viewInternship() {
+                    localStorage.setItem("employerView", "internship");
+                    window.location.href = "studentsCO.html";
+                }
+            </script>
+            <button class="option-btn" onclick="window.location.href='jobseekers.html'">Job Seekers</button>
+        </div>
+        <a href="signin.html" class="back-btn">Back</a>
+    </div>
+</body>
+</html>
